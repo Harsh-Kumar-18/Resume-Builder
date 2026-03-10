@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "../components/home/header";
 import Footer from "../components/home/Footer";
 import { Link } from "react-router-dom";
+import Header from "../components/home/Header";
 
 const features = [
   {
@@ -33,7 +33,7 @@ const Home = () => {
 
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-gray-50 via-white to-blue-50">
-      <Header />
+      <Header/>
 
       {/* HERO SECTION */}
       <div className="flex-1 flex items-center justify-center px-6 py-16">
