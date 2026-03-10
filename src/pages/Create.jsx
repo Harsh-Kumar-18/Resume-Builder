@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import Footer from "../components/home/Footer";
-import Header from "../components/home/header";
+import Header from "../components/home/Header";
 import { globalData } from "../context/GlobalContext";
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
